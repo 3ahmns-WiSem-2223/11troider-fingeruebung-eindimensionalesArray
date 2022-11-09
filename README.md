@@ -1,0 +1,1 @@
+# 11troider-fingeruebung-eindimensionalesArray
