@@ -12,5 +12,8 @@
 ## Genauer Index + Skizze
   - Der erste Index eines Arrays hat den Wert 0, und der letzte Index hat den Wert n-1 (mit n, der Anzahl der Elemente im Array).
   - Man kann mit dem Befehl array.length die Anzahl der Elemente herausfinden.
+  - Hier ist eine skizze wie man sich ein eindimensionales Array vorstellen kann:
+  ![grafik](https://user-images.githubusercontent.com/114597785/201203679-306e14cb-1301-4f2f-bf1f-52e6af867aac.png)
+
   
   
