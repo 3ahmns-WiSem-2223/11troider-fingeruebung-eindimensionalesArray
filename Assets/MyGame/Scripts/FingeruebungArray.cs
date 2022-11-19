@@ -1,6 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class FingeruebungArray : MonoBehaviour
 {
@@ -43,6 +42,21 @@ public class FingeruebungArray : MonoBehaviour
             longstring = longstring + array2[i] + " ";
         }
         Debug.Log(longstring);
+
+        array1[3] = 3;
+        Debug.Log(array1);
+
+        array2[2] = 203;
+        Debug.Log(array2);
+
+        array3[5] = 333;
+        Debug.Log(array3);
+
+        array4[2] = "heute";
+        Debug.Log(array4);
+
+        arrayColoredImagesRed[2].GetComponent<Image>().color = Color.green;
+
     }
 
 }
