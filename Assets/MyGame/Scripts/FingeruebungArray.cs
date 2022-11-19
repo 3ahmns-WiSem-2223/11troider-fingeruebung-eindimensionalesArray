@@ -2,5 +2,8 @@
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    
+    int[] array;
+
+
+
 }
