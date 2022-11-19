@@ -10,6 +10,7 @@ public class FingeruebungArray : MonoBehaviour
     int[] array3 = new int[7] { 31, 32, 33, 34, 35, 36, 37 };
     string[] array4 = new string[10];
     [SerializeField] GameObject[] arrayColoredImagesRed;
+    string longstring;
 
 
     private void Start()
@@ -33,7 +34,15 @@ public class FingeruebungArray : MonoBehaviour
         Debug.Log(array4[array4.Length-1]);
         Debug.Log(arrayColoredImagesRed[arrayColoredImagesRed.Length - 1].name);
 
-
+        for (int i = 0; i < array2.Length; i++)
+        {
+            Debug.Log("array2[" + i + "] = " + array2[i]);
+        }
+        for (int i = 0; i < array2.Length; i++)
+        {
+            longstring = longstring + array2[i] + " ";
+        }
+        Debug.Log(longstring);
     }
 
 }
